@@ -250,6 +250,29 @@ dialog {
 
 
 
+.containersearch {
+    display: flex;
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+    width: 100%; /* Largura total */
+    padding: 10px;
+}
+
+.requestsTableBody {
+    margin-top: 20px; /* Adiciona um espaçamento entre as divs */
+    width: 100%; /* Largura total */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
 
 
 
